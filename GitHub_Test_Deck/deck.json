@@ -1,0 +1,136 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "b169531e-9c3c-11ea-92ce-9cb6d0e887fa",
+    "deck_config_uuid": "b1697a11-9c3c-11ea-a819-9cb6d0e887fa",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "b1697a11-9c3c-11ea-a819-9cb6d0e887fa",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    20,
+                    1440
+                ],
+                "leechAction": 1,
+                "leechFails": 4,
+                "minInt": 1,
+                "mult": 0.1
+            },
+            "maxTaken": 180,
+            "name": "Default",
+            "new": {
+                "LBEIMinAfter": 20,
+                "LBEIMinBefore": 8,
+                "LBGIMinAfter": 7,
+                "LBGIMinBefore": 3,
+                "bury": false,
+                "delays": [
+                    15,
+                    1440,
+                    8640
+                ],
+                "initialFactor": 2410,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 0,
+                "perDay": 9999,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.2,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 28,
+                "minSpace": 1,
+                "perDay": 9999
+            },
+            "timer": 1
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "7b5b5330-112b-11ea-a77f-7c019be7ecae.jpg"
+    ],
+    "name": "GitHub_Test_Deck",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "b16ab1b4-9c3c-11ea-8019-9cb6d0e887fa",
+            "css": ".card {\n font-family: arial;\n font-size: 25px;\nfont-weight: bold;\n text-align: center;\n color: black;\n background-color: lightgrey;\n}\n\n.cloze {\n font-weight: bold;\n color: purple;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Cloze",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}</br> </br>\n<hr>\n{{Extra}}\n<br>\n<hr>\n<div style='font-size: 12px; color:red; text-align: center;'> {{Tags}} </div> <br>\n",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}}"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "This is an updated content test card<br><br>{{c1::Check ✓}}<br><br><img src=\"7b5b5330-112b-11ea-a77f-7c019be7ecae.jpg\">",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Ic/em#s`I^",
+            "newlyAdded": true,
+            "note_model_uuid": "b16ab1b4-9c3c-11ea-8019-9cb6d0e887fa",
+            "tags": [Test1::Test1_Sub]
+        }
+    ]
+}

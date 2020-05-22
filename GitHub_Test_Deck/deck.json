@@ -123,14 +123,27 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "This is an updated content test card<br><br>{{c1::Check ✓}}<br><br><img src=\"7b5b5330-112b-11ea-a77f-7c019be7ecae.jpg\">",
+                "This is a content test card<br><br>{{c1::Check ✓}}<br><br><img src=\"7b5b5330-112b-11ea-a77f-7c019be7ecae.jpg\">",
                 ""
             ],
             "flags": 0,
             "guid": "Ic/em#s`I^",
-            "newlyAdded": true,
+            "newlyAdded": false,
             "note_model_uuid": "b16ab1b4-9c3c-11ea-8019-9cb6d0e887fa",
-            "tags": [Test1::Test1_Sub]
+            "tags": [Tag1Test]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Test card number&nbsp;{{c1::Two}}",
+                "Where does the extra field show up in JSON?"
+            ],
+            "flags": 0,
+            "guid": "Ii3fY-;`;C",
+            "newlyAdded": false,
+            "note_model_uuid": "b16ab1b4-9c3c-11ea-8019-9cb6d0e887fa",
+            "tags": [Tag2Test]
         }
     ]
 }
